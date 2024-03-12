@@ -1,5 +1,6 @@
 # TiendaElectronica
-Implementación de  una aplicación Web, utilizando Python para el backend (Django) y JavaScript para el frontend (Nextjs), con la solución del caso de estudio de la aplicación de comercio que se discutió en el OVA de principios de diseño de software.
+Implementación de  una aplicación Web, utilizando Python para el backend (Django), con la solución del caso de estudio de la aplicación de comercio que se discutió en el OVA de principios de diseño de software.
+To run de server type python manage.py runserver, use the default port(8000)
 ## Backend
 Para la construccion del backend se utliza el framework Django, junto con djangorestframework. Tambien se utiliza SQLite para la base de datos que contiene principalmente los productos.
 <ul>
