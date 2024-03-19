@@ -36,7 +36,7 @@ with sqlite3.connect('db.sqlite3') as connection:
     
     query_create_table = """
         INSERT INTO producto (sku,nombre,description,unidades_disponibles,
-                                precio_unitario) VALUES('WE','PS-55','Pasta para soldar 55gr ',20,14.994); """
+                                precio_unitario) VALUES('WE','PS-55','Pasta para soldar 1gr ',20,14.994); """
     c.execute(query_create_table)
     connection.commit()
     
