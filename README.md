@@ -10,6 +10,10 @@ Para la construccion del backend se utliza el framework Django, junto con django
 <li><span>SQLite</span> https://www.sqlite.org/index.html </li>
 </ul>
 
+## Endpoints Aplicacion
+productos [name='get_productos']
+productos/<int:id_producto> [name='get_products_by_id']
+calculate_price_item [name='calculate_price_item']
 
 
 
