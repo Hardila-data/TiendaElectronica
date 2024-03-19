@@ -11,9 +11,9 @@ Para la construccion del backend se utliza el framework Django, junto con django
 </ul>
 
 ## Endpoints Aplicacion
-productos [name='get_productos']
-productos/<int:id_producto> [name='get_products_by_id']
-calculate_price_item [name='calculate_price_item']
+<li>(http://localhost:8000/productos) [name='get_productos'] 'GET'</li> 
+<li>(http://localhost:8000/productos/1) [name='get_products_by_id'] GET'</li>
+<li>http://localhost:8000/calculate_price_item [name='calculate_price_item'] 'POST'</li>
 
 
 
